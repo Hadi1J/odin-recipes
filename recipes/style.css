@@ -1,0 +1,44 @@
+body{
+    font-family: 'Times New Roman', sans-serif;
+    background-color: #fdf5ec;
+}
+h1{
+    text-align: center;
+    color: Black;
+    padding :10px;
+    margin-bottom: 20px;
+    font-family:Georgia, serif;
+}
+.imgcontainer{
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+img{
+    border-radius: 30px;
+}
+.content {
+    width: 66%; /* or any fixed width like 600px */
+    margin: 0 auto;
+}
+
+.content p{
+    font-size: 24px;
+}
+.content button a{
+    text-decoration: none;
+    color: #fdf5ec;
+}
+.content button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #3A10E5;
+}
+.content button:hover{
+    background-color: #3A10E5;
+}
+
+.content ul,ol li{
+    font-size: 24px;
+}
